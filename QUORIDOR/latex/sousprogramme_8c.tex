@@ -1,0 +1,1110 @@
+\hypertarget{sousprogramme_8c}{}\doxysection{sousprogramme.\+c File Reference}
+\label{sousprogramme_8c}\index{sousprogramme.c@{sousprogramme.c}}
+{\ttfamily \#include $<$time.\+h$>$}\newline
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$windows.\+h$>$}\newline
+Include dependency graph for sousprogramme.\+c\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=334pt]{sousprogramme_8c__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structmenu}{menu}}
+\item 
+struct \mbox{\hyperlink{structmapiece}{mapiece}}
+\item 
+struct \mbox{\hyperlink{structjoueur}{joueur}}
+\item 
+struct \mbox{\hyperlink{structmonplateau}{monplateau}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef struct \mbox{\hyperlink{structmenu}{menu}} \mbox{\hyperlink{sousprogramme_8c_a5c6731bf2686e35a47e34dea2c6e7d15}{t\+\_\+menu}}
+\item 
+typedef struct \mbox{\hyperlink{structmapiece}{mapiece}} \mbox{\hyperlink{sousprogramme_8c_a49427226f502c0f033d7c5caca533f6d}{t\+\_\+mapiece}}
+\item 
+typedef struct \mbox{\hyperlink{structjoueur}{joueur}} \mbox{\hyperlink{sousprogramme_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}}
+\item 
+typedef struct \mbox{\hyperlink{structmonplateau}{monplateau}} \mbox{\hyperlink{sousprogramme_8c_a8d735b23a21f1008972c8caa83522ebc}{t\+\_\+monplateau}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{sousprogramme_8c_a2562745a6de23c2c25a6c15b4bc906e0}{plateau}} ()
+\item 
+void \mbox{\hyperlink{sousprogramme_8c_a91bf2daf810a15ce5027e28628448219}{gotoligcol}} (int lig, int col)
+\item 
+void \mbox{\hyperlink{sousprogramme_8c_a0ef607bbdb4a5e17946b0ef8a6345bbb}{Color}} (int couleur\+Du\+Texte, int couleur\+De\+Fond)
+\item 
+void \mbox{\hyperlink{sousprogramme_8c_a3a529000d8fbff3aa713cd98360dec91}{tirageausort}} (\mbox{\hyperlink{quo_8c_a5c6731bf2686e35a47e34dea2c6e7d15}{t\+\_\+menu}} $\ast$\mbox{\hyperlink{structmenu}{menu}})
+\item 
+void \mbox{\hyperlink{sousprogramme_8c_a4d17b49586298038228948f3a1c0e9f5}{deplacerpiece}} (\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$player)
+\item 
+void \mbox{\hyperlink{sousprogramme_8c_a9f958d86cbd6db1ea7bc64cde9ae5471}{poserpiece}} (int x, int y, char jeton)
+\item 
+void \mbox{\hyperlink{sousprogramme_8c_a325856aebdec3ce38ef5b29c9dd35795}{creerjoueur}} (\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$player1, \mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$player2, \mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$player3, \mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$player4, \mbox{\hyperlink{quo_8c_a5c6731bf2686e35a47e34dea2c6e7d15}{t\+\_\+menu}} $\ast$\mbox{\hyperlink{structmenu}{menu}})
+\item 
+void \mbox{\hyperlink{sousprogramme_8c_ac79729afdaba0ddf43544dcfbc593600}{creerjoueur2}} (\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$player1, \mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$player2, \mbox{\hyperlink{quo_8c_a5c6731bf2686e35a47e34dea2c6e7d15}{t\+\_\+menu}} $\ast$\mbox{\hyperlink{structmenu}{menu}})
+\item 
+void \mbox{\hyperlink{sousprogramme_8c_a604a48058ceb10eacaccedc295a7f3d4}{creerjoueur4}} (\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$player1, \mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$player2, \mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$player3, \mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$player4, \mbox{\hyperlink{quo_8c_a5c6731bf2686e35a47e34dea2c6e7d15}{t\+\_\+menu}} $\ast$\mbox{\hyperlink{structmenu}{menu}})
+\item 
+char \mbox{\hyperlink{sousprogramme_8c_adce003b93a17c914eb71c21a3b66f73a}{jeton\+\_\+alea}} (char jeton)
+\item 
+void \mbox{\hyperlink{sousprogramme_8c_a2a0e843767aeea4f433a28b9c54f573a}{menu}} ()
+\item 
+void \mbox{\hyperlink{sousprogramme_8c_a5697e62b5c64048ee97845a270a1566f}{poserbarriere}} (\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$player, \mbox{\hyperlink{quo_8c_a5c6731bf2686e35a47e34dea2c6e7d15}{t\+\_\+menu}} $\ast$\mbox{\hyperlink{structmenu}{menu}}, char tab\mbox{[}17\mbox{]}\mbox{[}17\mbox{]}, int tabbarrierex1\mbox{[}100\mbox{]}, int tabbarrierey1\mbox{[}100\mbox{]}, int tabbarrierex2\mbox{[}100\mbox{]}, int tabbarrierey2\mbox{[}100\mbox{]}, int sens\mbox{[}100\mbox{]})
+\item 
+void \mbox{\hyperlink{sousprogramme_8c_a8ae0940fabd45bdbec2098bb821a968d}{passer\+Tour}} ()
+\item 
+void \mbox{\hyperlink{sousprogramme_8c_af25c1739307513a96e7c57a6b32068af}{annuler\+Action1}} (int $\ast$tabanulx, int $\ast$tabanuly, int tour, \mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$player)
+\item 
+void \mbox{\hyperlink{sousprogramme_8c_ab22024953f90efef7fb407ef62a63917}{annuler\+Action2}} (int $\ast$tabanulx, int $\ast$tabanuly, int tour, \mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$player)
+\item 
+void \mbox{\hyperlink{sousprogramme_8c_af81ba7b898dd8364c4cb8fe5b99cb9ea}{annuler\+Action4}} (int $\ast$tabanulx, int $\ast$tabanuly, int tour, \mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$player)
+\item 
+void \mbox{\hyperlink{sousprogramme_8c_a51b97c1979d7e21356c3362f15e24ac1}{annuler1}} (\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$player1)
+\item 
+void \mbox{\hyperlink{sousprogramme_8c_a79dfa70dfae93867a7bec4a461d336a6}{annuler2}} (\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$player2)
+\item 
+void \mbox{\hyperlink{sousprogramme_8c_a7f4b8ae03a835397bb3c88e1d9ea17fd}{annuler3}} (\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$player3)
+\item 
+void \mbox{\hyperlink{sousprogramme_8c_a4c2ba12ad3eab64ca8878263edced25f}{annuler4}} (\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$player4)
+\item 
+void \mbox{\hyperlink{sousprogramme_8c_acc5362686311138f3c6618f8054a5458}{annuler\+BarriereH}} (\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$player, \mbox{\hyperlink{quo_8c_a5c6731bf2686e35a47e34dea2c6e7d15}{t\+\_\+menu}} $\ast$\mbox{\hyperlink{structmenu}{menu}}, int tabbarrierex\mbox{[}100\mbox{]}, int tabbarrierey\mbox{[}100\mbox{]})
+\item 
+void \mbox{\hyperlink{sousprogramme_8c_ac1eb4005fd4187c3fd8432519bd24ab4}{annuler\+BarriereV}} (\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$player, \mbox{\hyperlink{quo_8c_a5c6731bf2686e35a47e34dea2c6e7d15}{t\+\_\+menu}} $\ast$\mbox{\hyperlink{structmenu}{menu}}, int tabbarrierex\mbox{[}100\mbox{]}, int tabbarrierey\mbox{[}100\mbox{]})
+\item 
+void \mbox{\hyperlink{sousprogramme_8c_aae10502a2b12de301b43545991dc1c9f}{aide}} ()
+\item 
+void \mbox{\hyperlink{sousprogramme_8c_ad7151023ac095a347f173aa30f8905e4}{oldscore}} (\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$player1, \mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$player2, \mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$player3, \mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$player4, \mbox{\hyperlink{quo_8c_a5c6731bf2686e35a47e34dea2c6e7d15}{t\+\_\+menu}} $\ast$\mbox{\hyperlink{structmenu}{menu}})
+\item 
+void \mbox{\hyperlink{sousprogramme_8c_a7395ce56381fa45b38232bb45845c17b}{reprise}} (\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$player1, \mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$player2, \mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$player3, \mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$player4, \mbox{\hyperlink{quo_8c_a5c6731bf2686e35a47e34dea2c6e7d15}{t\+\_\+menu}} $\ast$\mbox{\hyperlink{structmenu}{menu}}, int tabbarrierex1\mbox{[}100\mbox{]}, int tabbarrierey1\mbox{[}100\mbox{]}, int tabbarrierex2\mbox{[}100\mbox{]}, int tabbarrierey2\mbox{[}100\mbox{]}, int sens\mbox{[}100\mbox{]})
+\item 
+void \mbox{\hyperlink{sousprogramme_8c_a1c1d76e36c21b6ce470a4ac0938ed738}{score}} (\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$player1, \mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$player2, \mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$player3, \mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$player4)
+\item 
+void \mbox{\hyperlink{sousprogramme_8c_a6cf57e8427263db99e75caf865f40449}{info\+Partie}} (\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$player, \mbox{\hyperlink{quo_8c_a5c6731bf2686e35a47e34dea2c6e7d15}{t\+\_\+menu}} $\ast$\mbox{\hyperlink{structmenu}{menu}})
+\item 
+void \mbox{\hyperlink{sousprogramme_8c_a0f5349e092d4255ed464e3005cdea70a}{menujeu}} (\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$player1, \mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$player2, \mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$player3, \mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$player4, \mbox{\hyperlink{quo_8c_a5c6731bf2686e35a47e34dea2c6e7d15}{t\+\_\+menu}} $\ast$\mbox{\hyperlink{structmenu}{menu}}, char tab\mbox{[}17\mbox{]}\mbox{[}17\mbox{]}, int tabbarrierex1\mbox{[}100\mbox{]}, int tabbarrierey1\mbox{[}100\mbox{]}, int tabbarrierex2\mbox{[}100\mbox{]}, int tabbarrierey2\mbox{[}100\mbox{]}, int sens\mbox{[}100\mbox{]})
+\item 
+void \mbox{\hyperlink{sousprogramme_8c_aaffee1c63590e85059af3259d6648de6}{QUORIDOR}} ()
+\item 
+void \mbox{\hyperlink{sousprogramme_8c_afaf5eb37cd5a68017e50644c56c43e95}{sauvegardeb}} (int tabbarrierex1\mbox{[}100\mbox{]}, int tabbarrierey1\mbox{[}100\mbox{]}, int tabbarrierex2\mbox{[}100\mbox{]}, int tabbarrierey2\mbox{[}100\mbox{]}, int sens\mbox{[}100\mbox{]})
+\item 
+void \mbox{\hyperlink{sousprogramme_8c_a58a1e8891c94df83650183c75f80ee70}{sauvegarde2}} (\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} player1, \mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} player2, \mbox{\hyperlink{quo_8c_a5c6731bf2686e35a47e34dea2c6e7d15}{t\+\_\+menu}} \mbox{\hyperlink{structmenu}{menu}})
+\item 
+void \mbox{\hyperlink{sousprogramme_8c_a69ee2783899114da9f4f4bc2990dfa7d}{sauvegarde4}} (\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} player1, \mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} player2, \mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} player3, \mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} player4, \mbox{\hyperlink{quo_8c_a5c6731bf2686e35a47e34dea2c6e7d15}{t\+\_\+menu}} \mbox{\hyperlink{structmenu}{menu}})
+\item 
+void \mbox{\hyperlink{sousprogramme_8c_a36995fd231249481e29bd420ddbcfbd3}{sauvegardep}} (int tabx\mbox{[}100\mbox{]}, int taby\mbox{[}100\mbox{]})
+\item 
+void \mbox{\hyperlink{sousprogramme_8c_aac23e174cd5393b03b43fe4e9cb03981}{chargement}} ()
+\item 
+void \mbox{\hyperlink{sousprogramme_8c_ab4ca0fcf722f376a4ae2726b22a900b7}{chargementb}} (int tabbarrierex1\mbox{[}100\mbox{]}, int tabbarrierey1\mbox{[}100\mbox{]}, int tabbarrierex2\mbox{[}100\mbox{]}, int tabbarrierey2\mbox{[}100\mbox{]}, int sens\mbox{[}100\mbox{]})
+\item 
+void \mbox{\hyperlink{sousprogramme_8c_afe2406a62ff571e5547733a984dc432e}{scoreaff}} (\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$player1, \mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$player2, \mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$player3, \mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$player4, \mbox{\hyperlink{quo_8c_a5c6731bf2686e35a47e34dea2c6e7d15}{t\+\_\+menu}} $\ast$\mbox{\hyperlink{structmenu}{menu}})
+\item 
+char \mbox{\hyperlink{sousprogramme_8c_a6a372bdb823349b42cb97ea867f2e4ee}{quijoue}} (\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$player)
+\item 
+void \mbox{\hyperlink{sousprogramme_8c_a60bcd6a617f269423571f0139210c66e}{limiteplateau}} (\mbox{\hyperlink{quo_8c_a49427226f502c0f033d7c5caca533f6d}{t\+\_\+mapiece}} piece)
+\item 
+void \mbox{\hyperlink{sousprogramme_8c_aaa24335ba5ab035faabee704e157b8ea}{tabcouleur}} (char tabcol\mbox{[}17\mbox{]}\mbox{[}33\mbox{]}, char tablig\mbox{[}16\mbox{]}\mbox{[}35\mbox{]})
+\item 
+void \mbox{\hyperlink{sousprogramme_8c_a480b6523ea8e3183bf7334b6abddadc3}{temps}} ()
+\item 
+void \mbox{\hyperlink{sousprogramme_8c_ab6990d9fcb7351936f46512eb62bf140}{gagner1}} (\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$player1)
+\item 
+void \mbox{\hyperlink{sousprogramme_8c_a9255b6d2e08e299e7b7f8cb5c45ecbed}{gagner2}} (\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$player2)
+\item 
+void \mbox{\hyperlink{sousprogramme_8c_a0b35192e1e4e947f9da0a4469befcd8b}{gagner3}} (\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$player3)
+\item 
+void \mbox{\hyperlink{sousprogramme_8c_a6f6f5cf1c1ea7ba2e03b64c045183579}{gagner4}} (\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$player4)
+\item 
+void \mbox{\hyperlink{sousprogramme_8c_a378026156613b46cc9cf3c54f21debbb}{bloquebarriere}} (\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$player)
+\item 
+void \mbox{\hyperlink{sousprogramme_8c_a2999a4f9c995f7dc8f11924a59d4c771}{sauterunpion2J}} (\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$player1, \mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$player2, \mbox{\hyperlink{quo_8c_a5c6731bf2686e35a47e34dea2c6e7d15}{t\+\_\+menu}} $\ast$\mbox{\hyperlink{structmenu}{menu}})
+\item 
+void \mbox{\hyperlink{sousprogramme_8c_a938f17eda584774e030d9df0fcc9cced}{sauterunpion1p2}} (\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$player1, \mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$player2, \mbox{\hyperlink{quo_8c_a5c6731bf2686e35a47e34dea2c6e7d15}{t\+\_\+menu}} $\ast$\mbox{\hyperlink{structmenu}{menu}})
+\item 
+void \mbox{\hyperlink{sousprogramme_8c_a7a6ab18b1b8e3a78ae826ceda352d84f}{sauterunpion2p2}} (\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$player1, \mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$player2, \mbox{\hyperlink{quo_8c_a5c6731bf2686e35a47e34dea2c6e7d15}{t\+\_\+menu}} $\ast$\mbox{\hyperlink{structmenu}{menu}})
+\item 
+void \mbox{\hyperlink{sousprogramme_8c_a0103fdb279fcf3c78c41648648540513}{sauterunpion4J}} (\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$player1, \mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$player2, \mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$player3, \mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$player4, \mbox{\hyperlink{quo_8c_a5c6731bf2686e35a47e34dea2c6e7d15}{t\+\_\+menu}} $\ast$\mbox{\hyperlink{structmenu}{menu}})
+\item 
+void \mbox{\hyperlink{sousprogramme_8c_ac7b88c5eae1724f12974a373e0d38d20}{sauterunpion1}} (\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$player1, \mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$player2, \mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$player3, \mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$player4, \mbox{\hyperlink{quo_8c_a5c6731bf2686e35a47e34dea2c6e7d15}{t\+\_\+menu}} $\ast$\mbox{\hyperlink{structmenu}{menu}})
+\item 
+void \mbox{\hyperlink{sousprogramme_8c_a9ad59ea31ef8c4185ecca0d042b997f2}{sauterunpion2}} (\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$player1, \mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$player2, \mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$player3, \mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$player4, \mbox{\hyperlink{quo_8c_a5c6731bf2686e35a47e34dea2c6e7d15}{t\+\_\+menu}} $\ast$\mbox{\hyperlink{structmenu}{menu}})
+\item 
+void \mbox{\hyperlink{sousprogramme_8c_ad1e5b9276601c2cffc6403d19c2be2b9}{sauterunpion3}} (\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$player1, \mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$player2, \mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$player3, \mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$player4, \mbox{\hyperlink{quo_8c_a5c6731bf2686e35a47e34dea2c6e7d15}{t\+\_\+menu}} $\ast$\mbox{\hyperlink{structmenu}{menu}})
+\item 
+void \mbox{\hyperlink{sousprogramme_8c_a030890f45ae0e58a422ba5cc9d27734c}{sauterunpion4}} (\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$player1, \mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$player2, \mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$player3, \mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$player4, \mbox{\hyperlink{quo_8c_a5c6731bf2686e35a47e34dea2c6e7d15}{t\+\_\+menu}} $\ast$\mbox{\hyperlink{structmenu}{menu}})
+\item 
+void \mbox{\hyperlink{sousprogramme_8c_a14a11029699a982ceb1e798082d611d6}{sleep}} ()
+\item 
+int \mbox{\hyperlink{sousprogramme_8c_a160f6d2893bb6b89ab3ad5d863c20e3d}{getch}} ()
+\item 
+void \mbox{\hyperlink{sousprogramme_8c_a39055e1b12803ed15ba1cf28e3b4008b}{supprimerpiece}} (int x, int y)
+\item 
+void \mbox{\hyperlink{sousprogramme_8c_a094fd9fe9f815f4d1f5bb43011c372e4}{placementbarriere}} (int tabbarrierex\mbox{[}100\mbox{]}, int tabbarrierey\mbox{[}100\mbox{]})
+\item 
+void \mbox{\hyperlink{sousprogramme_8c_a8366ad64adfec72d1d0bf7e42f37b7cc}{chargement}} (\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$player1, \mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$player2, \mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$player3, \mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$player4, \mbox{\hyperlink{quo_8c_a5c6731bf2686e35a47e34dea2c6e7d15}{t\+\_\+menu}} $\ast$\mbox{\hyperlink{structmenu}{menu}})
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Typedef Documentation}
+\mbox{\Hypertarget{sousprogramme_8c_a3e417dda93856044faf7542bf6c70682}\label{sousprogramme_8c_a3e417dda93856044faf7542bf6c70682}} 
+\index{sousprogramme.c@{sousprogramme.c}!t\_joueur@{t\_joueur}}
+\index{t\_joueur@{t\_joueur}!sousprogramme.c@{sousprogramme.c}}
+\doxysubsubsection{\texorpdfstring{t\_joueur}{t\_joueur}}
+{\footnotesize\ttfamily typedef struct \mbox{\hyperlink{structjoueur}{joueur}} \mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}}}
+
+\mbox{\Hypertarget{sousprogramme_8c_a49427226f502c0f033d7c5caca533f6d}\label{sousprogramme_8c_a49427226f502c0f033d7c5caca533f6d}} 
+\index{sousprogramme.c@{sousprogramme.c}!t\_mapiece@{t\_mapiece}}
+\index{t\_mapiece@{t\_mapiece}!sousprogramme.c@{sousprogramme.c}}
+\doxysubsubsection{\texorpdfstring{t\_mapiece}{t\_mapiece}}
+{\footnotesize\ttfamily typedef struct \mbox{\hyperlink{structmapiece}{mapiece}} \mbox{\hyperlink{quo_8c_a49427226f502c0f033d7c5caca533f6d}{t\+\_\+mapiece}}}
+
+\mbox{\Hypertarget{sousprogramme_8c_a5c6731bf2686e35a47e34dea2c6e7d15}\label{sousprogramme_8c_a5c6731bf2686e35a47e34dea2c6e7d15}} 
+\index{sousprogramme.c@{sousprogramme.c}!t\_menu@{t\_menu}}
+\index{t\_menu@{t\_menu}!sousprogramme.c@{sousprogramme.c}}
+\doxysubsubsection{\texorpdfstring{t\_menu}{t\_menu}}
+{\footnotesize\ttfamily typedef struct \mbox{\hyperlink{structmenu}{menu}} \mbox{\hyperlink{quo_8c_a5c6731bf2686e35a47e34dea2c6e7d15}{t\+\_\+menu}}}
+
+\mbox{\Hypertarget{sousprogramme_8c_a8d735b23a21f1008972c8caa83522ebc}\label{sousprogramme_8c_a8d735b23a21f1008972c8caa83522ebc}} 
+\index{sousprogramme.c@{sousprogramme.c}!t\_monplateau@{t\_monplateau}}
+\index{t\_monplateau@{t\_monplateau}!sousprogramme.c@{sousprogramme.c}}
+\doxysubsubsection{\texorpdfstring{t\_monplateau}{t\_monplateau}}
+{\footnotesize\ttfamily typedef struct \mbox{\hyperlink{structmonplateau}{monplateau}} \mbox{\hyperlink{quo_8c_a8d735b23a21f1008972c8caa83522ebc}{t\+\_\+monplateau}}}
+
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{sousprogramme_8c_aae10502a2b12de301b43545991dc1c9f}\label{sousprogramme_8c_aae10502a2b12de301b43545991dc1c9f}} 
+\index{sousprogramme.c@{sousprogramme.c}!aide@{aide}}
+\index{aide@{aide}!sousprogramme.c@{sousprogramme.c}}
+\doxysubsubsection{\texorpdfstring{aide()}{aide()}}
+{\footnotesize\ttfamily void aide (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{sousprogramme_8c_aae10502a2b12de301b43545991dc1c9f_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=278pt]{sousprogramme_8c_aae10502a2b12de301b43545991dc1c9f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{sousprogramme_8c_a51b97c1979d7e21356c3362f15e24ac1}\label{sousprogramme_8c_a51b97c1979d7e21356c3362f15e24ac1}} 
+\index{sousprogramme.c@{sousprogramme.c}!annuler1@{annuler1}}
+\index{annuler1@{annuler1}!sousprogramme.c@{sousprogramme.c}}
+\doxysubsubsection{\texorpdfstring{annuler1()}{annuler1()}}
+{\footnotesize\ttfamily void annuler1 (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$}]{player1 }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=227pt]{sousprogramme_8c_a51b97c1979d7e21356c3362f15e24ac1_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{sousprogramme_8c_a51b97c1979d7e21356c3362f15e24ac1_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{sousprogramme_8c_a79dfa70dfae93867a7bec4a461d336a6}\label{sousprogramme_8c_a79dfa70dfae93867a7bec4a461d336a6}} 
+\index{sousprogramme.c@{sousprogramme.c}!annuler2@{annuler2}}
+\index{annuler2@{annuler2}!sousprogramme.c@{sousprogramme.c}}
+\doxysubsubsection{\texorpdfstring{annuler2()}{annuler2()}}
+{\footnotesize\ttfamily void annuler2 (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$}]{player2 }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=227pt]{sousprogramme_8c_a79dfa70dfae93867a7bec4a461d336a6_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{sousprogramme_8c_a79dfa70dfae93867a7bec4a461d336a6_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{sousprogramme_8c_a7f4b8ae03a835397bb3c88e1d9ea17fd}\label{sousprogramme_8c_a7f4b8ae03a835397bb3c88e1d9ea17fd}} 
+\index{sousprogramme.c@{sousprogramme.c}!annuler3@{annuler3}}
+\index{annuler3@{annuler3}!sousprogramme.c@{sousprogramme.c}}
+\doxysubsubsection{\texorpdfstring{annuler3()}{annuler3()}}
+{\footnotesize\ttfamily void annuler3 (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$}]{player3 }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=227pt]{sousprogramme_8c_a7f4b8ae03a835397bb3c88e1d9ea17fd_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{sousprogramme_8c_a7f4b8ae03a835397bb3c88e1d9ea17fd_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{sousprogramme_8c_a4c2ba12ad3eab64ca8878263edced25f}\label{sousprogramme_8c_a4c2ba12ad3eab64ca8878263edced25f}} 
+\index{sousprogramme.c@{sousprogramme.c}!annuler4@{annuler4}}
+\index{annuler4@{annuler4}!sousprogramme.c@{sousprogramme.c}}
+\doxysubsubsection{\texorpdfstring{annuler4()}{annuler4()}}
+{\footnotesize\ttfamily void annuler4 (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$}]{player4 }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=227pt]{sousprogramme_8c_a4c2ba12ad3eab64ca8878263edced25f_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{sousprogramme_8c_a4c2ba12ad3eab64ca8878263edced25f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{sousprogramme_8c_af25c1739307513a96e7c57a6b32068af}\label{sousprogramme_8c_af25c1739307513a96e7c57a6b32068af}} 
+\index{sousprogramme.c@{sousprogramme.c}!annulerAction1@{annulerAction1}}
+\index{annulerAction1@{annulerAction1}!sousprogramme.c@{sousprogramme.c}}
+\doxysubsubsection{\texorpdfstring{annulerAction1()}{annulerAction1()}}
+{\footnotesize\ttfamily void annuler\+Action1 (\begin{DoxyParamCaption}\item[{int $\ast$}]{tabanulx,  }\item[{int $\ast$}]{tabanuly,  }\item[{int}]{tour,  }\item[{\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$}]{player }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{sousprogramme_8c_ab22024953f90efef7fb407ef62a63917}\label{sousprogramme_8c_ab22024953f90efef7fb407ef62a63917}} 
+\index{sousprogramme.c@{sousprogramme.c}!annulerAction2@{annulerAction2}}
+\index{annulerAction2@{annulerAction2}!sousprogramme.c@{sousprogramme.c}}
+\doxysubsubsection{\texorpdfstring{annulerAction2()}{annulerAction2()}}
+{\footnotesize\ttfamily void annuler\+Action2 (\begin{DoxyParamCaption}\item[{int $\ast$}]{tabanulx,  }\item[{int $\ast$}]{tabanuly,  }\item[{int}]{tour,  }\item[{\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$}]{player }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=255pt]{sousprogramme_8c_ab22024953f90efef7fb407ef62a63917_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{sousprogramme_8c_ab22024953f90efef7fb407ef62a63917_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{sousprogramme_8c_af81ba7b898dd8364c4cb8fe5b99cb9ea}\label{sousprogramme_8c_af81ba7b898dd8364c4cb8fe5b99cb9ea}} 
+\index{sousprogramme.c@{sousprogramme.c}!annulerAction4@{annulerAction4}}
+\index{annulerAction4@{annulerAction4}!sousprogramme.c@{sousprogramme.c}}
+\doxysubsubsection{\texorpdfstring{annulerAction4()}{annulerAction4()}}
+{\footnotesize\ttfamily void annuler\+Action4 (\begin{DoxyParamCaption}\item[{int $\ast$}]{tabanulx,  }\item[{int $\ast$}]{tabanuly,  }\item[{int}]{tour,  }\item[{\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$}]{player }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=255pt]{sousprogramme_8c_af81ba7b898dd8364c4cb8fe5b99cb9ea_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{sousprogramme_8c_af81ba7b898dd8364c4cb8fe5b99cb9ea_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{sousprogramme_8c_acc5362686311138f3c6618f8054a5458}\label{sousprogramme_8c_acc5362686311138f3c6618f8054a5458}} 
+\index{sousprogramme.c@{sousprogramme.c}!annulerBarriereH@{annulerBarriereH}}
+\index{annulerBarriereH@{annulerBarriereH}!sousprogramme.c@{sousprogramme.c}}
+\doxysubsubsection{\texorpdfstring{annulerBarriereH()}{annulerBarriereH()}}
+{\footnotesize\ttfamily void annuler\+BarriereH (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$}]{player,  }\item[{\mbox{\hyperlink{quo_8c_a5c6731bf2686e35a47e34dea2c6e7d15}{t\+\_\+menu}} $\ast$}]{menu,  }\item[{int}]{tabbarrierex\mbox{[}100\mbox{]},  }\item[{int}]{tabbarrierey\mbox{[}100\mbox{]} }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=263pt]{sousprogramme_8c_acc5362686311138f3c6618f8054a5458_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{sousprogramme_8c_acc5362686311138f3c6618f8054a5458_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{sousprogramme_8c_ac1eb4005fd4187c3fd8432519bd24ab4}\label{sousprogramme_8c_ac1eb4005fd4187c3fd8432519bd24ab4}} 
+\index{sousprogramme.c@{sousprogramme.c}!annulerBarriereV@{annulerBarriereV}}
+\index{annulerBarriereV@{annulerBarriereV}!sousprogramme.c@{sousprogramme.c}}
+\doxysubsubsection{\texorpdfstring{annulerBarriereV()}{annulerBarriereV()}}
+{\footnotesize\ttfamily void annuler\+BarriereV (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$}]{player,  }\item[{\mbox{\hyperlink{quo_8c_a5c6731bf2686e35a47e34dea2c6e7d15}{t\+\_\+menu}} $\ast$}]{menu,  }\item[{int}]{tabbarrierex\mbox{[}100\mbox{]},  }\item[{int}]{tabbarrierey\mbox{[}100\mbox{]} }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=263pt]{sousprogramme_8c_ac1eb4005fd4187c3fd8432519bd24ab4_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{sousprogramme_8c_ac1eb4005fd4187c3fd8432519bd24ab4_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{sousprogramme_8c_a378026156613b46cc9cf3c54f21debbb}\label{sousprogramme_8c_a378026156613b46cc9cf3c54f21debbb}} 
+\index{sousprogramme.c@{sousprogramme.c}!bloquebarriere@{bloquebarriere}}
+\index{bloquebarriere@{bloquebarriere}!sousprogramme.c@{sousprogramme.c}}
+\doxysubsubsection{\texorpdfstring{bloquebarriere()}{bloquebarriere()}}
+{\footnotesize\ttfamily void bloquebarriere (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$}]{player }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=251pt]{sousprogramme_8c_a378026156613b46cc9cf3c54f21debbb_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{sousprogramme_8c_a378026156613b46cc9cf3c54f21debbb_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{sousprogramme_8c_aac23e174cd5393b03b43fe4e9cb03981}\label{sousprogramme_8c_aac23e174cd5393b03b43fe4e9cb03981}} 
+\index{sousprogramme.c@{sousprogramme.c}!chargement@{chargement}}
+\index{chargement@{chargement}!sousprogramme.c@{sousprogramme.c}}
+\doxysubsubsection{\texorpdfstring{chargement()}{chargement()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void chargement (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{sousprogramme_8c_aac23e174cd5393b03b43fe4e9cb03981_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{sousprogramme_8c_a8366ad64adfec72d1d0bf7e42f37b7cc}\label{sousprogramme_8c_a8366ad64adfec72d1d0bf7e42f37b7cc}} 
+\index{sousprogramme.c@{sousprogramme.c}!chargement@{chargement}}
+\index{chargement@{chargement}!sousprogramme.c@{sousprogramme.c}}
+\doxysubsubsection{\texorpdfstring{chargement()}{chargement()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void chargement (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$}]{player1,  }\item[{\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$}]{player2,  }\item[{\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$}]{player3,  }\item[{\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$}]{player4,  }\item[{\mbox{\hyperlink{quo_8c_a5c6731bf2686e35a47e34dea2c6e7d15}{t\+\_\+menu}} $\ast$}]{menu }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{sousprogramme_8c_ab4ca0fcf722f376a4ae2726b22a900b7}\label{sousprogramme_8c_ab4ca0fcf722f376a4ae2726b22a900b7}} 
+\index{sousprogramme.c@{sousprogramme.c}!chargementb@{chargementb}}
+\index{chargementb@{chargementb}!sousprogramme.c@{sousprogramme.c}}
+\doxysubsubsection{\texorpdfstring{chargementb()}{chargementb()}}
+{\footnotesize\ttfamily void chargementb (\begin{DoxyParamCaption}\item[{int}]{tabbarrierex1\mbox{[}100\mbox{]},  }\item[{int}]{tabbarrierey1\mbox{[}100\mbox{]},  }\item[{int}]{tabbarrierex2\mbox{[}100\mbox{]},  }\item[{int}]{tabbarrierey2\mbox{[}100\mbox{]},  }\item[{int}]{sens\mbox{[}100\mbox{]} }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{sousprogramme_8c_ab4ca0fcf722f376a4ae2726b22a900b7_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{sousprogramme_8c_a0ef607bbdb4a5e17946b0ef8a6345bbb}\label{sousprogramme_8c_a0ef607bbdb4a5e17946b0ef8a6345bbb}} 
+\index{sousprogramme.c@{sousprogramme.c}!Color@{Color}}
+\index{Color@{Color}!sousprogramme.c@{sousprogramme.c}}
+\doxysubsubsection{\texorpdfstring{Color()}{Color()}}
+{\footnotesize\ttfamily void Color (\begin{DoxyParamCaption}\item[{int}]{couleur\+Du\+Texte,  }\item[{int}]{couleur\+De\+Fond }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{sousprogramme_8c_a0ef607bbdb4a5e17946b0ef8a6345bbb_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{sousprogramme_8c_a325856aebdec3ce38ef5b29c9dd35795}\label{sousprogramme_8c_a325856aebdec3ce38ef5b29c9dd35795}} 
+\index{sousprogramme.c@{sousprogramme.c}!creerjoueur@{creerjoueur}}
+\index{creerjoueur@{creerjoueur}!sousprogramme.c@{sousprogramme.c}}
+\doxysubsubsection{\texorpdfstring{creerjoueur()}{creerjoueur()}}
+{\footnotesize\ttfamily void creerjoueur (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$}]{player1,  }\item[{\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$}]{player2,  }\item[{\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$}]{player3,  }\item[{\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$}]{player4,  }\item[{\mbox{\hyperlink{quo_8c_a5c6731bf2686e35a47e34dea2c6e7d15}{t\+\_\+menu}} $\ast$}]{menu }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{sousprogramme_8c_a325856aebdec3ce38ef5b29c9dd35795_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=308pt]{sousprogramme_8c_a325856aebdec3ce38ef5b29c9dd35795_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{sousprogramme_8c_ac79729afdaba0ddf43544dcfbc593600}\label{sousprogramme_8c_ac79729afdaba0ddf43544dcfbc593600}} 
+\index{sousprogramme.c@{sousprogramme.c}!creerjoueur2@{creerjoueur2}}
+\index{creerjoueur2@{creerjoueur2}!sousprogramme.c@{sousprogramme.c}}
+\doxysubsubsection{\texorpdfstring{creerjoueur2()}{creerjoueur2()}}
+{\footnotesize\ttfamily void creerjoueur2 (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$}]{player1,  }\item[{\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$}]{player2,  }\item[{\mbox{\hyperlink{quo_8c_a5c6731bf2686e35a47e34dea2c6e7d15}{t\+\_\+menu}} $\ast$}]{menu }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=257pt]{sousprogramme_8c_ac79729afdaba0ddf43544dcfbc593600_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{sousprogramme_8c_ac79729afdaba0ddf43544dcfbc593600_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{sousprogramme_8c_a604a48058ceb10eacaccedc295a7f3d4}\label{sousprogramme_8c_a604a48058ceb10eacaccedc295a7f3d4}} 
+\index{sousprogramme.c@{sousprogramme.c}!creerjoueur4@{creerjoueur4}}
+\index{creerjoueur4@{creerjoueur4}!sousprogramme.c@{sousprogramme.c}}
+\doxysubsubsection{\texorpdfstring{creerjoueur4()}{creerjoueur4()}}
+{\footnotesize\ttfamily void creerjoueur4 (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$}]{player1,  }\item[{\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$}]{player2,  }\item[{\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$}]{player3,  }\item[{\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$}]{player4,  }\item[{\mbox{\hyperlink{quo_8c_a5c6731bf2686e35a47e34dea2c6e7d15}{t\+\_\+menu}} $\ast$}]{menu }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=257pt]{sousprogramme_8c_a604a48058ceb10eacaccedc295a7f3d4_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{sousprogramme_8c_a604a48058ceb10eacaccedc295a7f3d4_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{sousprogramme_8c_a4d17b49586298038228948f3a1c0e9f5}\label{sousprogramme_8c_a4d17b49586298038228948f3a1c0e9f5}} 
+\index{sousprogramme.c@{sousprogramme.c}!deplacerpiece@{deplacerpiece}}
+\index{deplacerpiece@{deplacerpiece}!sousprogramme.c@{sousprogramme.c}}
+\doxysubsubsection{\texorpdfstring{deplacerpiece()}{deplacerpiece()}}
+{\footnotesize\ttfamily void deplacerpiece (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$}]{player }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=251pt]{sousprogramme_8c_a4d17b49586298038228948f3a1c0e9f5_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{sousprogramme_8c_a4d17b49586298038228948f3a1c0e9f5_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{sousprogramme_8c_ab6990d9fcb7351936f46512eb62bf140}\label{sousprogramme_8c_ab6990d9fcb7351936f46512eb62bf140}} 
+\index{sousprogramme.c@{sousprogramme.c}!gagner1@{gagner1}}
+\index{gagner1@{gagner1}!sousprogramme.c@{sousprogramme.c}}
+\doxysubsubsection{\texorpdfstring{gagner1()}{gagner1()}}
+{\footnotesize\ttfamily void gagner1 (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$}]{player1 }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{sousprogramme_8c_ab6990d9fcb7351936f46512eb62bf140_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{sousprogramme_8c_a9255b6d2e08e299e7b7f8cb5c45ecbed}\label{sousprogramme_8c_a9255b6d2e08e299e7b7f8cb5c45ecbed}} 
+\index{sousprogramme.c@{sousprogramme.c}!gagner2@{gagner2}}
+\index{gagner2@{gagner2}!sousprogramme.c@{sousprogramme.c}}
+\doxysubsubsection{\texorpdfstring{gagner2()}{gagner2()}}
+{\footnotesize\ttfamily void gagner2 (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$}]{player2 }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{sousprogramme_8c_a9255b6d2e08e299e7b7f8cb5c45ecbed_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{sousprogramme_8c_a0b35192e1e4e947f9da0a4469befcd8b}\label{sousprogramme_8c_a0b35192e1e4e947f9da0a4469befcd8b}} 
+\index{sousprogramme.c@{sousprogramme.c}!gagner3@{gagner3}}
+\index{gagner3@{gagner3}!sousprogramme.c@{sousprogramme.c}}
+\doxysubsubsection{\texorpdfstring{gagner3()}{gagner3()}}
+{\footnotesize\ttfamily void gagner3 (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$}]{player3 }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{sousprogramme_8c_a0b35192e1e4e947f9da0a4469befcd8b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{sousprogramme_8c_a6f6f5cf1c1ea7ba2e03b64c045183579}\label{sousprogramme_8c_a6f6f5cf1c1ea7ba2e03b64c045183579}} 
+\index{sousprogramme.c@{sousprogramme.c}!gagner4@{gagner4}}
+\index{gagner4@{gagner4}!sousprogramme.c@{sousprogramme.c}}
+\doxysubsubsection{\texorpdfstring{gagner4()}{gagner4()}}
+{\footnotesize\ttfamily void gagner4 (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$}]{player4 }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{sousprogramme_8c_a6f6f5cf1c1ea7ba2e03b64c045183579_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{sousprogramme_8c_a160f6d2893bb6b89ab3ad5d863c20e3d}\label{sousprogramme_8c_a160f6d2893bb6b89ab3ad5d863c20e3d}} 
+\index{sousprogramme.c@{sousprogramme.c}!getch@{getch}}
+\index{getch@{getch}!sousprogramme.c@{sousprogramme.c}}
+\doxysubsubsection{\texorpdfstring{getch()}{getch()}}
+{\footnotesize\ttfamily int getch (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{sousprogramme_8c_a160f6d2893bb6b89ab3ad5d863c20e3d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{sousprogramme_8c_a91bf2daf810a15ce5027e28628448219}\label{sousprogramme_8c_a91bf2daf810a15ce5027e28628448219}} 
+\index{sousprogramme.c@{sousprogramme.c}!gotoligcol@{gotoligcol}}
+\index{gotoligcol@{gotoligcol}!sousprogramme.c@{sousprogramme.c}}
+\doxysubsubsection{\texorpdfstring{gotoligcol()}{gotoligcol()}}
+{\footnotesize\ttfamily void gotoligcol (\begin{DoxyParamCaption}\item[{int}]{lig,  }\item[{int}]{col }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{sousprogramme_8c_a91bf2daf810a15ce5027e28628448219_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{sousprogramme_8c_a6cf57e8427263db99e75caf865f40449}\label{sousprogramme_8c_a6cf57e8427263db99e75caf865f40449}} 
+\index{sousprogramme.c@{sousprogramme.c}!infoPartie@{infoPartie}}
+\index{infoPartie@{infoPartie}!sousprogramme.c@{sousprogramme.c}}
+\doxysubsubsection{\texorpdfstring{infoPartie()}{infoPartie()}}
+{\footnotesize\ttfamily void info\+Partie (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$}]{player,  }\item[{\mbox{\hyperlink{quo_8c_a5c6731bf2686e35a47e34dea2c6e7d15}{t\+\_\+menu}} $\ast$}]{menu }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=231pt]{sousprogramme_8c_a6cf57e8427263db99e75caf865f40449_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{sousprogramme_8c_a6cf57e8427263db99e75caf865f40449_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{sousprogramme_8c_adce003b93a17c914eb71c21a3b66f73a}\label{sousprogramme_8c_adce003b93a17c914eb71c21a3b66f73a}} 
+\index{sousprogramme.c@{sousprogramme.c}!jeton\_alea@{jeton\_alea}}
+\index{jeton\_alea@{jeton\_alea}!sousprogramme.c@{sousprogramme.c}}
+\doxysubsubsection{\texorpdfstring{jeton\_alea()}{jeton\_alea()}}
+{\footnotesize\ttfamily char jeton\+\_\+alea (\begin{DoxyParamCaption}\item[{char}]{jeton }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{sousprogramme_8c_adce003b93a17c914eb71c21a3b66f73a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{sousprogramme_8c_a60bcd6a617f269423571f0139210c66e}\label{sousprogramme_8c_a60bcd6a617f269423571f0139210c66e}} 
+\index{sousprogramme.c@{sousprogramme.c}!limiteplateau@{limiteplateau}}
+\index{limiteplateau@{limiteplateau}!sousprogramme.c@{sousprogramme.c}}
+\doxysubsubsection{\texorpdfstring{limiteplateau()}{limiteplateau()}}
+{\footnotesize\ttfamily void limiteplateau (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{quo_8c_a49427226f502c0f033d7c5caca533f6d}{t\+\_\+mapiece}}}]{piece }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{sousprogramme_8c_a2a0e843767aeea4f433a28b9c54f573a}\label{sousprogramme_8c_a2a0e843767aeea4f433a28b9c54f573a}} 
+\index{sousprogramme.c@{sousprogramme.c}!menu@{menu}}
+\index{menu@{menu}!sousprogramme.c@{sousprogramme.c}}
+\doxysubsubsection{\texorpdfstring{menu()}{menu()}}
+{\footnotesize\ttfamily void \mbox{\hyperlink{structmenu}{menu}} (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{sousprogramme_8c_a2a0e843767aeea4f433a28b9c54f573a_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=207pt]{sousprogramme_8c_a2a0e843767aeea4f433a28b9c54f573a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{sousprogramme_8c_a0f5349e092d4255ed464e3005cdea70a}\label{sousprogramme_8c_a0f5349e092d4255ed464e3005cdea70a}} 
+\index{sousprogramme.c@{sousprogramme.c}!menujeu@{menujeu}}
+\index{menujeu@{menujeu}!sousprogramme.c@{sousprogramme.c}}
+\doxysubsubsection{\texorpdfstring{menujeu()}{menujeu()}}
+{\footnotesize\ttfamily void menujeu (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$}]{player1,  }\item[{\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$}]{player2,  }\item[{\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$}]{player3,  }\item[{\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$}]{player4,  }\item[{\mbox{\hyperlink{quo_8c_a5c6731bf2686e35a47e34dea2c6e7d15}{t\+\_\+menu}} $\ast$}]{menu,  }\item[{char}]{tab\mbox{[}17\mbox{]}\mbox{[}17\mbox{]},  }\item[{int}]{tabbarrierex1\mbox{[}100\mbox{]},  }\item[{int}]{tabbarrierey1\mbox{[}100\mbox{]},  }\item[{int}]{tabbarrierex2\mbox{[}100\mbox{]},  }\item[{int}]{tabbarrierey2\mbox{[}100\mbox{]},  }\item[{int}]{sens\mbox{[}100\mbox{]} }\end{DoxyParamCaption})}
+
+S\textquotesingle{}il y a 2 joueurs
+
+Horizontal
+
+verticalHere is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{sousprogramme_8c_a0f5349e092d4255ed464e3005cdea70a_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=296pt]{sousprogramme_8c_a0f5349e092d4255ed464e3005cdea70a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{sousprogramme_8c_ad7151023ac095a347f173aa30f8905e4}\label{sousprogramme_8c_ad7151023ac095a347f173aa30f8905e4}} 
+\index{sousprogramme.c@{sousprogramme.c}!oldscore@{oldscore}}
+\index{oldscore@{oldscore}!sousprogramme.c@{sousprogramme.c}}
+\doxysubsubsection{\texorpdfstring{oldscore()}{oldscore()}}
+{\footnotesize\ttfamily void oldscore (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$}]{player1,  }\item[{\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$}]{player2,  }\item[{\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$}]{player3,  }\item[{\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$}]{player4,  }\item[{\mbox{\hyperlink{quo_8c_a5c6731bf2686e35a47e34dea2c6e7d15}{t\+\_\+menu}} $\ast$}]{menu }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=237pt]{sousprogramme_8c_ad7151023ac095a347f173aa30f8905e4_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=296pt]{sousprogramme_8c_ad7151023ac095a347f173aa30f8905e4_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{sousprogramme_8c_a8ae0940fabd45bdbec2098bb821a968d}\label{sousprogramme_8c_a8ae0940fabd45bdbec2098bb821a968d}} 
+\index{sousprogramme.c@{sousprogramme.c}!passerTour@{passerTour}}
+\index{passerTour@{passerTour}!sousprogramme.c@{sousprogramme.c}}
+\doxysubsubsection{\texorpdfstring{passerTour()}{passerTour()}}
+{\footnotesize\ttfamily void passer\+Tour (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=239pt]{sousprogramme_8c_a8ae0940fabd45bdbec2098bb821a968d_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{sousprogramme_8c_a8ae0940fabd45bdbec2098bb821a968d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{sousprogramme_8c_a094fd9fe9f815f4d1f5bb43011c372e4}\label{sousprogramme_8c_a094fd9fe9f815f4d1f5bb43011c372e4}} 
+\index{sousprogramme.c@{sousprogramme.c}!placementbarriere@{placementbarriere}}
+\index{placementbarriere@{placementbarriere}!sousprogramme.c@{sousprogramme.c}}
+\doxysubsubsection{\texorpdfstring{placementbarriere()}{placementbarriere()}}
+{\footnotesize\ttfamily void placementbarriere (\begin{DoxyParamCaption}\item[{int}]{tabbarrierex\mbox{[}100\mbox{]},  }\item[{int}]{tabbarrierey\mbox{[}100\mbox{]} }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{sousprogramme_8c_a2562745a6de23c2c25a6c15b4bc906e0}\label{sousprogramme_8c_a2562745a6de23c2c25a6c15b4bc906e0}} 
+\index{sousprogramme.c@{sousprogramme.c}!plateau@{plateau}}
+\index{plateau@{plateau}!sousprogramme.c@{sousprogramme.c}}
+\doxysubsubsection{\texorpdfstring{plateau()}{plateau()}}
+{\footnotesize\ttfamily void plateau (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=203pt]{sousprogramme_8c_a2562745a6de23c2c25a6c15b4bc906e0_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=291pt]{sousprogramme_8c_a2562745a6de23c2c25a6c15b4bc906e0_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{sousprogramme_8c_a5697e62b5c64048ee97845a270a1566f}\label{sousprogramme_8c_a5697e62b5c64048ee97845a270a1566f}} 
+\index{sousprogramme.c@{sousprogramme.c}!poserbarriere@{poserbarriere}}
+\index{poserbarriere@{poserbarriere}!sousprogramme.c@{sousprogramme.c}}
+\doxysubsubsection{\texorpdfstring{poserbarriere()}{poserbarriere()}}
+{\footnotesize\ttfamily void poserbarriere (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$}]{player,  }\item[{\mbox{\hyperlink{quo_8c_a5c6731bf2686e35a47e34dea2c6e7d15}{t\+\_\+menu}} $\ast$}]{menu,  }\item[{char}]{tab\mbox{[}17\mbox{]}\mbox{[}17\mbox{]},  }\item[{int}]{tabbarrierex1\mbox{[}100\mbox{]},  }\item[{int}]{tabbarrierey1\mbox{[}100\mbox{]},  }\item[{int}]{tabbarrierex2\mbox{[}100\mbox{]},  }\item[{int}]{tabbarrierey2\mbox{[}100\mbox{]},  }\item[{int}]{sens\mbox{[}100\mbox{]} }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=247pt]{sousprogramme_8c_a5697e62b5c64048ee97845a270a1566f_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{sousprogramme_8c_a5697e62b5c64048ee97845a270a1566f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{sousprogramme_8c_a9f958d86cbd6db1ea7bc64cde9ae5471}\label{sousprogramme_8c_a9f958d86cbd6db1ea7bc64cde9ae5471}} 
+\index{sousprogramme.c@{sousprogramme.c}!poserpiece@{poserpiece}}
+\index{poserpiece@{poserpiece}!sousprogramme.c@{sousprogramme.c}}
+\doxysubsubsection{\texorpdfstring{poserpiece()}{poserpiece()}}
+{\footnotesize\ttfamily void poserpiece (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y,  }\item[{char}]{jeton }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=238pt]{sousprogramme_8c_a9f958d86cbd6db1ea7bc64cde9ae5471_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{sousprogramme_8c_a6a372bdb823349b42cb97ea867f2e4ee}\label{sousprogramme_8c_a6a372bdb823349b42cb97ea867f2e4ee}} 
+\index{sousprogramme.c@{sousprogramme.c}!quijoue@{quijoue}}
+\index{quijoue@{quijoue}!sousprogramme.c@{sousprogramme.c}}
+\doxysubsubsection{\texorpdfstring{quijoue()}{quijoue()}}
+{\footnotesize\ttfamily char quijoue (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$}]{player }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{sousprogramme_8c_aaffee1c63590e85059af3259d6648de6}\label{sousprogramme_8c_aaffee1c63590e85059af3259d6648de6}} 
+\index{sousprogramme.c@{sousprogramme.c}!QUORIDOR@{QUORIDOR}}
+\index{QUORIDOR@{QUORIDOR}!sousprogramme.c@{sousprogramme.c}}
+\doxysubsubsection{\texorpdfstring{QUORIDOR()}{QUORIDOR()}}
+{\footnotesize\ttfamily void QUORIDOR (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=311pt]{sousprogramme_8c_aaffee1c63590e85059af3259d6648de6_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{sousprogramme_8c_a7395ce56381fa45b38232bb45845c17b}\label{sousprogramme_8c_a7395ce56381fa45b38232bb45845c17b}} 
+\index{sousprogramme.c@{sousprogramme.c}!reprise@{reprise}}
+\index{reprise@{reprise}!sousprogramme.c@{sousprogramme.c}}
+\doxysubsubsection{\texorpdfstring{reprise()}{reprise()}}
+{\footnotesize\ttfamily void reprise (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$}]{player1,  }\item[{\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$}]{player2,  }\item[{\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$}]{player3,  }\item[{\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$}]{player4,  }\item[{\mbox{\hyperlink{quo_8c_a5c6731bf2686e35a47e34dea2c6e7d15}{t\+\_\+menu}} $\ast$}]{menu,  }\item[{int}]{tabbarrierex1\mbox{[}100\mbox{]},  }\item[{int}]{tabbarrierey1\mbox{[}100\mbox{]},  }\item[{int}]{tabbarrierex2\mbox{[}100\mbox{]},  }\item[{int}]{tabbarrierey2\mbox{[}100\mbox{]},  }\item[{int}]{sens\mbox{[}100\mbox{]} }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{sousprogramme_8c_a7395ce56381fa45b38232bb45845c17b_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=289pt]{sousprogramme_8c_a7395ce56381fa45b38232bb45845c17b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{sousprogramme_8c_ac7b88c5eae1724f12974a373e0d38d20}\label{sousprogramme_8c_ac7b88c5eae1724f12974a373e0d38d20}} 
+\index{sousprogramme.c@{sousprogramme.c}!sauterunpion1@{sauterunpion1}}
+\index{sauterunpion1@{sauterunpion1}!sousprogramme.c@{sousprogramme.c}}
+\doxysubsubsection{\texorpdfstring{sauterunpion1()}{sauterunpion1()}}
+{\footnotesize\ttfamily void sauterunpion1 (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$}]{player1,  }\item[{\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$}]{player2,  }\item[{\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$}]{player3,  }\item[{\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$}]{player4,  }\item[{\mbox{\hyperlink{quo_8c_a5c6731bf2686e35a47e34dea2c6e7d15}{t\+\_\+menu}} $\ast$}]{menu }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=251pt]{sousprogramme_8c_ac7b88c5eae1724f12974a373e0d38d20_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{sousprogramme_8c_ac7b88c5eae1724f12974a373e0d38d20_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{sousprogramme_8c_a938f17eda584774e030d9df0fcc9cced}\label{sousprogramme_8c_a938f17eda584774e030d9df0fcc9cced}} 
+\index{sousprogramme.c@{sousprogramme.c}!sauterunpion1p2@{sauterunpion1p2}}
+\index{sauterunpion1p2@{sauterunpion1p2}!sousprogramme.c@{sousprogramme.c}}
+\doxysubsubsection{\texorpdfstring{sauterunpion1p2()}{sauterunpion1p2()}}
+{\footnotesize\ttfamily void sauterunpion1p2 (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$}]{player1,  }\item[{\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$}]{player2,  }\item[{\mbox{\hyperlink{quo_8c_a5c6731bf2686e35a47e34dea2c6e7d15}{t\+\_\+menu}} $\ast$}]{menu }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=262pt]{sousprogramme_8c_a938f17eda584774e030d9df0fcc9cced_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{sousprogramme_8c_a938f17eda584774e030d9df0fcc9cced_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{sousprogramme_8c_a9ad59ea31ef8c4185ecca0d042b997f2}\label{sousprogramme_8c_a9ad59ea31ef8c4185ecca0d042b997f2}} 
+\index{sousprogramme.c@{sousprogramme.c}!sauterunpion2@{sauterunpion2}}
+\index{sauterunpion2@{sauterunpion2}!sousprogramme.c@{sousprogramme.c}}
+\doxysubsubsection{\texorpdfstring{sauterunpion2()}{sauterunpion2()}}
+{\footnotesize\ttfamily void sauterunpion2 (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$}]{player1,  }\item[{\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$}]{player2,  }\item[{\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$}]{player3,  }\item[{\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$}]{player4,  }\item[{\mbox{\hyperlink{quo_8c_a5c6731bf2686e35a47e34dea2c6e7d15}{t\+\_\+menu}} $\ast$}]{menu }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=251pt]{sousprogramme_8c_a9ad59ea31ef8c4185ecca0d042b997f2_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{sousprogramme_8c_a9ad59ea31ef8c4185ecca0d042b997f2_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{sousprogramme_8c_a2999a4f9c995f7dc8f11924a59d4c771}\label{sousprogramme_8c_a2999a4f9c995f7dc8f11924a59d4c771}} 
+\index{sousprogramme.c@{sousprogramme.c}!sauterunpion2J@{sauterunpion2J}}
+\index{sauterunpion2J@{sauterunpion2J}!sousprogramme.c@{sousprogramme.c}}
+\doxysubsubsection{\texorpdfstring{sauterunpion2J()}{sauterunpion2J()}}
+{\footnotesize\ttfamily void sauterunpion2J (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$}]{player1,  }\item[{\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$}]{player2,  }\item[{\mbox{\hyperlink{quo_8c_a5c6731bf2686e35a47e34dea2c6e7d15}{t\+\_\+menu}} $\ast$}]{menu }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{sousprogramme_8c_a2999a4f9c995f7dc8f11924a59d4c771_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{sousprogramme_8c_a2999a4f9c995f7dc8f11924a59d4c771_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{sousprogramme_8c_a7a6ab18b1b8e3a78ae826ceda352d84f}\label{sousprogramme_8c_a7a6ab18b1b8e3a78ae826ceda352d84f}} 
+\index{sousprogramme.c@{sousprogramme.c}!sauterunpion2p2@{sauterunpion2p2}}
+\index{sauterunpion2p2@{sauterunpion2p2}!sousprogramme.c@{sousprogramme.c}}
+\doxysubsubsection{\texorpdfstring{sauterunpion2p2()}{sauterunpion2p2()}}
+{\footnotesize\ttfamily void sauterunpion2p2 (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$}]{player1,  }\item[{\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$}]{player2,  }\item[{\mbox{\hyperlink{quo_8c_a5c6731bf2686e35a47e34dea2c6e7d15}{t\+\_\+menu}} $\ast$}]{menu }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=262pt]{sousprogramme_8c_a7a6ab18b1b8e3a78ae826ceda352d84f_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{sousprogramme_8c_a7a6ab18b1b8e3a78ae826ceda352d84f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{sousprogramme_8c_ad1e5b9276601c2cffc6403d19c2be2b9}\label{sousprogramme_8c_ad1e5b9276601c2cffc6403d19c2be2b9}} 
+\index{sousprogramme.c@{sousprogramme.c}!sauterunpion3@{sauterunpion3}}
+\index{sauterunpion3@{sauterunpion3}!sousprogramme.c@{sousprogramme.c}}
+\doxysubsubsection{\texorpdfstring{sauterunpion3()}{sauterunpion3()}}
+{\footnotesize\ttfamily void sauterunpion3 (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$}]{player1,  }\item[{\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$}]{player2,  }\item[{\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$}]{player3,  }\item[{\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$}]{player4,  }\item[{\mbox{\hyperlink{quo_8c_a5c6731bf2686e35a47e34dea2c6e7d15}{t\+\_\+menu}} $\ast$}]{menu }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=251pt]{sousprogramme_8c_ad1e5b9276601c2cffc6403d19c2be2b9_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{sousprogramme_8c_ad1e5b9276601c2cffc6403d19c2be2b9_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{sousprogramme_8c_a030890f45ae0e58a422ba5cc9d27734c}\label{sousprogramme_8c_a030890f45ae0e58a422ba5cc9d27734c}} 
+\index{sousprogramme.c@{sousprogramme.c}!sauterunpion4@{sauterunpion4}}
+\index{sauterunpion4@{sauterunpion4}!sousprogramme.c@{sousprogramme.c}}
+\doxysubsubsection{\texorpdfstring{sauterunpion4()}{sauterunpion4()}}
+{\footnotesize\ttfamily void sauterunpion4 (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$}]{player1,  }\item[{\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$}]{player2,  }\item[{\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$}]{player3,  }\item[{\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$}]{player4,  }\item[{\mbox{\hyperlink{quo_8c_a5c6731bf2686e35a47e34dea2c6e7d15}{t\+\_\+menu}} $\ast$}]{menu }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=251pt]{sousprogramme_8c_a030890f45ae0e58a422ba5cc9d27734c_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{sousprogramme_8c_a030890f45ae0e58a422ba5cc9d27734c_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{sousprogramme_8c_a0103fdb279fcf3c78c41648648540513}\label{sousprogramme_8c_a0103fdb279fcf3c78c41648648540513}} 
+\index{sousprogramme.c@{sousprogramme.c}!sauterunpion4J@{sauterunpion4J}}
+\index{sauterunpion4J@{sauterunpion4J}!sousprogramme.c@{sousprogramme.c}}
+\doxysubsubsection{\texorpdfstring{sauterunpion4J()}{sauterunpion4J()}}
+{\footnotesize\ttfamily void sauterunpion4J (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$}]{player1,  }\item[{\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$}]{player2,  }\item[{\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$}]{player3,  }\item[{\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$}]{player4,  }\item[{\mbox{\hyperlink{quo_8c_a5c6731bf2686e35a47e34dea2c6e7d15}{t\+\_\+menu}} $\ast$}]{menu }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{sousprogramme_8c_a0103fdb279fcf3c78c41648648540513_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{sousprogramme_8c_a0103fdb279fcf3c78c41648648540513_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{sousprogramme_8c_a58a1e8891c94df83650183c75f80ee70}\label{sousprogramme_8c_a58a1e8891c94df83650183c75f80ee70}} 
+\index{sousprogramme.c@{sousprogramme.c}!sauvegarde2@{sauvegarde2}}
+\index{sauvegarde2@{sauvegarde2}!sousprogramme.c@{sousprogramme.c}}
+\doxysubsubsection{\texorpdfstring{sauvegarde2()}{sauvegarde2()}}
+{\footnotesize\ttfamily void sauvegarde2 (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}}}]{player1,  }\item[{\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}}}]{player2,  }\item[{\mbox{\hyperlink{quo_8c_a5c6731bf2686e35a47e34dea2c6e7d15}{t\+\_\+menu}}}]{menu }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{sousprogramme_8c_a58a1e8891c94df83650183c75f80ee70_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{sousprogramme_8c_a69ee2783899114da9f4f4bc2990dfa7d}\label{sousprogramme_8c_a69ee2783899114da9f4f4bc2990dfa7d}} 
+\index{sousprogramme.c@{sousprogramme.c}!sauvegarde4@{sauvegarde4}}
+\index{sauvegarde4@{sauvegarde4}!sousprogramme.c@{sousprogramme.c}}
+\doxysubsubsection{\texorpdfstring{sauvegarde4()}{sauvegarde4()}}
+{\footnotesize\ttfamily void sauvegarde4 (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}}}]{player1,  }\item[{\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}}}]{player2,  }\item[{\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}}}]{player3,  }\item[{\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}}}]{player4,  }\item[{\mbox{\hyperlink{quo_8c_a5c6731bf2686e35a47e34dea2c6e7d15}{t\+\_\+menu}}}]{menu }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{sousprogramme_8c_a69ee2783899114da9f4f4bc2990dfa7d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{sousprogramme_8c_afaf5eb37cd5a68017e50644c56c43e95}\label{sousprogramme_8c_afaf5eb37cd5a68017e50644c56c43e95}} 
+\index{sousprogramme.c@{sousprogramme.c}!sauvegardeb@{sauvegardeb}}
+\index{sauvegardeb@{sauvegardeb}!sousprogramme.c@{sousprogramme.c}}
+\doxysubsubsection{\texorpdfstring{sauvegardeb()}{sauvegardeb()}}
+{\footnotesize\ttfamily void sauvegardeb (\begin{DoxyParamCaption}\item[{int}]{tabbarrierex1\mbox{[}100\mbox{]},  }\item[{int}]{tabbarrierey1\mbox{[}100\mbox{]},  }\item[{int}]{tabbarrierex2\mbox{[}100\mbox{]},  }\item[{int}]{tabbarrierey2\mbox{[}100\mbox{]},  }\item[{int}]{sens\mbox{[}100\mbox{]} }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{sousprogramme_8c_afaf5eb37cd5a68017e50644c56c43e95_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{sousprogramme_8c_a36995fd231249481e29bd420ddbcfbd3}\label{sousprogramme_8c_a36995fd231249481e29bd420ddbcfbd3}} 
+\index{sousprogramme.c@{sousprogramme.c}!sauvegardep@{sauvegardep}}
+\index{sauvegardep@{sauvegardep}!sousprogramme.c@{sousprogramme.c}}
+\doxysubsubsection{\texorpdfstring{sauvegardep()}{sauvegardep()}}
+{\footnotesize\ttfamily void sauvegardep (\begin{DoxyParamCaption}\item[{int}]{tabx\mbox{[}100\mbox{]},  }\item[{int}]{taby\mbox{[}100\mbox{]} }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{sousprogramme_8c_a1c1d76e36c21b6ce470a4ac0938ed738}\label{sousprogramme_8c_a1c1d76e36c21b6ce470a4ac0938ed738}} 
+\index{sousprogramme.c@{sousprogramme.c}!score@{score}}
+\index{score@{score}!sousprogramme.c@{sousprogramme.c}}
+\doxysubsubsection{\texorpdfstring{score()}{score()}}
+{\footnotesize\ttfamily void score (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$}]{player1,  }\item[{\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$}]{player2,  }\item[{\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$}]{player3,  }\item[{\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$}]{player4 }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{sousprogramme_8c_afe2406a62ff571e5547733a984dc432e}\label{sousprogramme_8c_afe2406a62ff571e5547733a984dc432e}} 
+\index{sousprogramme.c@{sousprogramme.c}!scoreaff@{scoreaff}}
+\index{scoreaff@{scoreaff}!sousprogramme.c@{sousprogramme.c}}
+\doxysubsubsection{\texorpdfstring{scoreaff()}{scoreaff()}}
+{\footnotesize\ttfamily void scoreaff (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$}]{player1,  }\item[{\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$}]{player2,  }\item[{\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$}]{player3,  }\item[{\mbox{\hyperlink{quo_8c_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$}]{player4,  }\item[{\mbox{\hyperlink{quo_8c_a5c6731bf2686e35a47e34dea2c6e7d15}{t\+\_\+menu}} $\ast$}]{menu }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{sousprogramme_8c_afe2406a62ff571e5547733a984dc432e_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=289pt]{sousprogramme_8c_afe2406a62ff571e5547733a984dc432e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{sousprogramme_8c_a14a11029699a982ceb1e798082d611d6}\label{sousprogramme_8c_a14a11029699a982ceb1e798082d611d6}} 
+\index{sousprogramme.c@{sousprogramme.c}!sleep@{sleep}}
+\index{sleep@{sleep}!sousprogramme.c@{sousprogramme.c}}
+\doxysubsubsection{\texorpdfstring{sleep()}{sleep()}}
+{\footnotesize\ttfamily void sleep (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{sousprogramme_8c_a14a11029699a982ceb1e798082d611d6_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{sousprogramme_8c_a39055e1b12803ed15ba1cf28e3b4008b}\label{sousprogramme_8c_a39055e1b12803ed15ba1cf28e3b4008b}} 
+\index{sousprogramme.c@{sousprogramme.c}!supprimerpiece@{supprimerpiece}}
+\index{supprimerpiece@{supprimerpiece}!sousprogramme.c@{sousprogramme.c}}
+\doxysubsubsection{\texorpdfstring{supprimerpiece()}{supprimerpiece()}}
+{\footnotesize\ttfamily void supprimerpiece (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=257pt]{sousprogramme_8c_a39055e1b12803ed15ba1cf28e3b4008b_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{sousprogramme_8c_a39055e1b12803ed15ba1cf28e3b4008b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{sousprogramme_8c_aaa24335ba5ab035faabee704e157b8ea}\label{sousprogramme_8c_aaa24335ba5ab035faabee704e157b8ea}} 
+\index{sousprogramme.c@{sousprogramme.c}!tabcouleur@{tabcouleur}}
+\index{tabcouleur@{tabcouleur}!sousprogramme.c@{sousprogramme.c}}
+\doxysubsubsection{\texorpdfstring{tabcouleur()}{tabcouleur()}}
+{\footnotesize\ttfamily void tabcouleur (\begin{DoxyParamCaption}\item[{char}]{tabcol\mbox{[}17\mbox{]}\mbox{[}33\mbox{]},  }\item[{char}]{tablig\mbox{[}16\mbox{]}\mbox{[}35\mbox{]} }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{sousprogramme_8c_a480b6523ea8e3183bf7334b6abddadc3}\label{sousprogramme_8c_a480b6523ea8e3183bf7334b6abddadc3}} 
+\index{sousprogramme.c@{sousprogramme.c}!temps@{temps}}
+\index{temps@{temps}!sousprogramme.c@{sousprogramme.c}}
+\doxysubsubsection{\texorpdfstring{temps()}{temps()}}
+{\footnotesize\ttfamily void temps (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=218pt]{sousprogramme_8c_a480b6523ea8e3183bf7334b6abddadc3_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{sousprogramme_8c_a3a529000d8fbff3aa713cd98360dec91}\label{sousprogramme_8c_a3a529000d8fbff3aa713cd98360dec91}} 
+\index{sousprogramme.c@{sousprogramme.c}!tirageausort@{tirageausort}}
+\index{tirageausort@{tirageausort}!sousprogramme.c@{sousprogramme.c}}
+\doxysubsubsection{\texorpdfstring{tirageausort()}{tirageausort()}}
+{\footnotesize\ttfamily void tirageausort (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{quo_8c_a5c6731bf2686e35a47e34dea2c6e7d15}{t\+\_\+menu}} $\ast$}]{menu }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=311pt]{sousprogramme_8c_a3a529000d8fbff3aa713cd98360dec91_icgraph}
+\end{center}
+\end{figure}

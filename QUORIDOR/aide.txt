@@ -1,0 +1,21 @@
+Quoridor se joue sur un plateau de damier a 81 tuiles (9 * 9).
+
+Chaque joueur possede un pion qu il place soit sur l une des lignes, en face de son adversaire, lors des partie en 1 contre 1, 
+
+ou a l un des angles lorsqu il y a plus de 2 joueurs.
+
+L objectif de la partie est tres simple : atteindre l autre extremite du damier pour remporter la victoire.
+
+A chaque tour de jeu, le joueur peut choisir entre deux actions :
+
+Avancer d une case vers l avant, vers l arriere, a droite ou a gauche, mais pas en diagonale !
+
+Ajouter un mur de labyrinthe pour bloquer son adversaire.
+
+Il faudra donc alterner les phases de deplacement tout en essayant de rendre le trajet de votre adversaire le plus long possible.
+
+Ajoutez a cela la regle qui dit qu il est interdit de bloquer totalement son adversaire – un chemin vers le but devant rester de tout temps accessible. 
+
+Vous comprenez que vous vous trouvez devant un jeu ou la strategie joue un role dominant.
+
+A vous donc de rendre le trajet adverse le plus long possible tout en tentant de rallier l autre extremite du damier au plus vite.

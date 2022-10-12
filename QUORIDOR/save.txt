@@ -1,0 +1,5 @@
+Nombre de joueurs: 2
+Ordre: 2
+Tour: 1
+Pseudo: ZIHZE	Score: 0	Jeton: *	Barrieres: 10	PositionX: 17	PositionY: 18
+Pseudo: ZFDZ	Score: 0	Jeton: $	Barrieres: 10	PositionX: 1	PositionY: 18

@@ -1,0 +1,226 @@
+# depslib dependency file v1.0
+1638638274 source:c:\users\remyj\onedrive - groupe inseec (poce)\documents\algo\exercices\quoridor\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<time.h>
+
+1636893075 source:c:\users\remyj\onedrive - groupe inseec (poce)\documents\algo\exercices\quoridor\quo.c
+	<windows.h>
+
+1638641410 source:c:\users\remyj\onedrive - groupe inseec (poce)\documents\algo\exercices\quoridor\sousprogramme.c
+	<time.h>
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1638705572 source:c:\users\camille hascoët\downloads\quoridor_9\quoridor\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<time.h>
+
+1638705572 source:c:\users\camille hascoët\downloads\quoridor_11\quoridor\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<time.h>
+
+1638711624 source:c:\users\camille hascoët\downloads\quoridor_11\quoridor\sousprogramme.c
+	<time.h>
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1638705574 source:c:\users\remyj\onedrive - groupe inseec (poce)\bureau\quoridor_11\quoridor\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<time.h>
+
+1638809933 source:c:\users\remyj\onedrive - groupe inseec (poce)\bureau\quoridor_11\quoridor\sousprogramme.c
+	<time.h>
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1638811349 source:c:\users\user\downloads\quoridor\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<time.h>
+
+1639092462 source:c:\users\user\downloads\quoridor\sousprogramme.c
+	<time.h>
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1639235605 source:c:\users\camille hascoët\downloads\qoridorsauterpion\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<time.h>
+
+1639247895 source:c:\users\camille hascoët\downloads\qoridorsauterpion\sousprogramme.c
+	<time.h>
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1639235605 source:c:\users\camille hascoët\downloads\qoridor13\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<time.h>
+
+1639258774 source:c:\users\camille hascoët\downloads\qoridor13\sousprogramme.c
+	<time.h>
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1639235606 source:c:\users\remyj\onedrive - groupe inseec (poce)\bureau\qoridor13\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<time.h>
+
+1639312064 source:c:\users\remyj\onedrive - groupe inseec (poce)\bureau\qoridor13\sousprogramme.c
+	<time.h>
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1639323466 source:c:\users\remyj\onedrive - groupe inseec (poce)\bureau\qoridor15\qoridor13\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<time.h>
+
+1639327753 source:c:\users\remyj\onedrive - groupe inseec (poce)\bureau\qoridor15\qoridor13\sousprogramme.c
+	<time.h>
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1639323466 source:c:\users\remyj\onedrive - groupe inseec (poce)\bureau\qoridor18\qoridor13\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<time.h>
+
+1639330690 source:c:\users\camille hascoët\downloads\qoridor19\qoridor18\qoridor13\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<time.h>
+
+1639331114 source:c:\users\camille hascoët\downloads\qoridor19\qoridor18\qoridor13\sousprogramme.c
+	<time.h>
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1639330692 source:c:\users\remyj\onedrive - groupe inseec (poce)\bureau\qoridor19\qoridor18\qoridor13\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<time.h>
+
+1639335972 source:c:\users\remyj\onedrive - groupe inseec (poce)\bureau\qoridor19\qoridor18\qoridor13\sousprogramme.c
+	<time.h>
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1639337145 source:c:\users\camille hascoët\downloads\qoridor20\qoridor19\qoridor18\qoridor13\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<time.h>
+
+1639337145 source:c:\users\camille hascoët\downloads\qoridor20\qoridor19\qoridor18\qoridor13\sousprogramme.c
+	<time.h>
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1639337146 source:c:\users\remyj\onedrive - groupe inseec (poce)\bureau\qoridor20\qoridor19\qoridor18\qoridor13\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<time.h>
+
+1639341516 source:c:\users\remyj\onedrive - groupe inseec (poce)\bureau\qoridor20\qoridor19\qoridor18\qoridor13\sousprogramme.c
+	<time.h>
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1639342519 source:c:\users\user\downloads\qoridor20\qoridor19\qoridor18\qoridor13\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<time.h>
+
+1639345416 source:c:\users\user\downloads\qoridor20\qoridor19\qoridor18\qoridor13\sousprogramme.c
+	<time.h>
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1639346644 source:c:\users\remyj\downloads\qoridor22\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<time.h>
+
+1639346645 source:c:\users\remyj\downloads\qoridor22\sousprogramme.c
+	<time.h>
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1639348455 source:c:\users\camille hascoët\downloads\qoridor24\qoridor22\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<time.h>
+
+1639350191 source:c:\users\remyj\downloads\qoridor25\qoridor25\qoridor22\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<time.h>
+
+1639350238 source:c:\users\remyj\downloads\qoridor25\qoridor25\qoridor22\sousprogramme.c
+	<time.h>
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1639350705 source:c:\users\camille hascoët\downloads\qoridor26\qoridor25\qoridor22\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<time.h>
+
+1639353424 source:c:\users\camille hascoët\downloads\qoridor26\qoridor25\qoridor22\sousprogramme.c
+	<time.h>
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1639350706 source:c:\users\remyj\onedrive - groupe inseec (poce)\bureau\jovanovic_hascoet_rajoel_tds06\quoridor\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<time.h>
+
+1639353880 source:c:\users\remyj\onedrive - groupe inseec (poce)\bureau\jovanovic_hascoet_rajoel_tds06\quoridor\sousprogramme.c
+	<time.h>
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
