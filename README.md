@@ -1,6 +1,7 @@
 # Quoridor
 
-# Project done with:
+# Project by:
 
 - Camille Hascoet
 - Stephanie Rajoel
+- Rémy JOVANOVIC
